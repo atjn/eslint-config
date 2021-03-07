@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@atjn/eslint-config",
   "version": "1.0.0",
   "description": "My personal JavaScript code style",
   "main": ".eslintrc.js",
@@ -7,9 +7,10 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "lint": "eslint '**/*.js'",
-    "test": "tap",
-    "validate": "npm install && npm run lint && npm run test"
+    "lint:js": "eslint '**/*.js'",
+    "lint": "npm run lint:js",
+    "test:tap": "tap",
+    "test": "npm install && npm run lint && npm run test:tap"
   },
   "repository": {
     "type": "git",
