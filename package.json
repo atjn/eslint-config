@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "My personal JavaScript code style",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js"
+  ],
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "tap",
+    "validate": "npm install && npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atjn/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": {
+    "name": "atjn",
+    "email": "dev@atjn.dk",
+    "url": "https://github.com/atjn/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atjn/eslint-config/issues"
+  },
+  "homepage": "https://github.com/atjn/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "devDependencies": {
+    "diff": "^5.0.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "tap": "^14.11.0"
+  }
+}
