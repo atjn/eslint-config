@@ -20,7 +20,13 @@ module.exports = {
 	],
 
 	"ignorePatterns": [
+
+		//Dotfiles are ignored by default. This makes sure they are linted.
+		"!**/.*.js",
+
+		//Ignore any test fixture files. They might be intentionally bad.
 		"test/fixture/**",
+
 	],
 
 
