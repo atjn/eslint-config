@@ -1,2 +1,4 @@
 check-coverage: true
+branches: 50
+
 test-ignore: \/fixture\/.*$
