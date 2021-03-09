@@ -7,7 +7,7 @@
     ".eslintrc.js"
   ],
   "scripts": {
-    "lint:js": "eslint '**/*.js'",
+    "lint:js": "eslint \"**/*.js\"",
     "lint": "npm run lint:js",
     "test:tap": "tap",
     "test": "npm install && npm run lint && npm run test:tap"
@@ -35,7 +35,6 @@
     "eslint-plugin-promise": "^4.3.1"
   },
   "devDependencies": {
-    "diff": "^5.0.0",
     "eslint": "^7.21.0",
     "eslint-plugin-promise": "^4.3.1",
     "tap": "^14.11.0"
