@@ -1,3 +1,6 @@
+## 2.1.1
+`fixed` Updated badges in readme as part of test system refactor.
+
 ## 2.1.0
 `fixed` No longer enforces Unix-style EOLs on Windows, instead expects Git to auto-convert them before pushing to the repo.
 
