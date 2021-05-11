@@ -4,12 +4,11 @@ const os = require("os");
 
 module.exports = {
 
-	"extends": [
-		"eslint:recommended",
-		"plugin:promise/recommended",
+	plugins: [
+		"promise",
 	],
 
-	"env": {
+	env: {
 		"es2021":			true,
 		"browser":			true,
 		"worker":			true,
@@ -17,11 +16,7 @@ module.exports = {
 		"node":				true,
 	},
 
-	"plugins": [
-		"promise",
-	],
-
-	"ignorePatterns": [
+	ignorePatterns: [
 
 		//Dotfiles are ignored by default. This makes sure they are linted.
 		"!**/.*.js",
@@ -31,10 +26,14 @@ module.exports = {
 
 	],
 
+	extends: [
+		"eslint:recommended",
+		"plugin:promise/recommended",
+	],
 
 	//Rules are ordered according to their documentation: https://eslint.org/docs/rules/
 
-	"rules": {
+	rules: {
 
 		//Possible Errors
 		"no-loss-of-precision":				 "error",
