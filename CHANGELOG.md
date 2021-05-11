@@ -1,3 +1,18 @@
+## 3.0.0
+Includes breaking fixes for minor code style issues, adds JSDoc documentation.
+
+`breaking` Now requires JSDoc dodumentation for all files and functions
+
+`breaking` Now requires all switch cases to be indented
+
+`removed` No longer does a check for code complexity
+
+`removed` No longer checks indentation of property chains
+
+`fixed` Now allows empty lines at start of file
+
+`fixed` Loosened check for space before block to allow for blocks in switch cases
+
 ## 2.1.1
 `fixed` Updated badges in readme as part of test system refactor.
 
