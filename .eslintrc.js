@@ -43,7 +43,6 @@ module.exports = {
 		"require-atomic-updates":			 "error",
 
 		//Best Practices
-		"complexity":						["error", {"max": 20}],
 		"curly":							["error", "multi-line"],
 		"default-case-last":				 "error",
 		"dot-location":						["error", "property"],
@@ -79,7 +78,7 @@ module.exports = {
 		"function-call-argument-newline":	["error", "consistent"],
 		"function-paren-newline": 			["error", "consistent"],
 		"implicit-arrow-linebreak":			["error", "beside"],
-		"indent":							["error", "tab"],
+		"indent":							["error", "tab", {"MemberExpression": "off", "SwitchCase": 1}],
 		"key-spacing":						["error", {"beforeColon": false, "afterColon": true, "mode": "minimum"}],
 
 		//									If the operating system does not use Unix EOLs, Git should auto-convert between EOL types when pushing/pulling code.
@@ -95,7 +94,7 @@ module.exports = {
 		"no-bitwise":						 "error",
 		"no-mixed-operators":				 "error",
 		"no-multi-assign":					 "error",
-		"no-multiple-empty-lines":			["error", {"max": 4, "maxEOF": 1, "maxBOF": 0}],
+		"no-multiple-empty-lines":			["error", {"max": 4, "maxEOF": 1, "maxBOF": 3}],
 		"no-new-object":					 "error",
 		"no-underscore-dangle":				 "error",
 		"no-unneeded-ternary":				 "error",
@@ -107,7 +106,10 @@ module.exports = {
 		"semi":								["error", "always"],
 		"semi-spacing":						["error", {"before": false, "after": true}],
 		"semi-style":						["error", "last"],
-		"space-before-blocks":				["error", "never"],
+
+		//									"keywords" has to be off to allow blocks in switch-statements, but this also means that things like if- and for-statements are not enforced :/
+		"space-before-blocks":				["error", {"functions": "never", "keywords": "off", "classes": "never"}],
+
 		"space-before-function-paren":		["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
 		"space-infix-ops":					 "error",
 		"space-unary-ops":					["error", {"words": true, "nonwords": false}],
