@@ -1,5 +1,10 @@
 "use strict";
 
+/**
+ * @file
+ * This runs a few basic tests to make sure the configuration file is valid and produces correct results.
+ */
+
 const tap = require("tap");
 
 module.exports = async () => {

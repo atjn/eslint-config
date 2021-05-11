@@ -1,6 +1,9 @@
 "use strict";
 
-// This script doesn't satisfy all linting rules. It should be rejected.
+/**
+ * @file
+ * This script doesn't satisfy all linting rules. It should be rejected.
+ */
 
 var sortingHat = () => {
 	if(Math.random() > .5){

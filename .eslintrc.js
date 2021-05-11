@@ -1,10 +1,16 @@
 "use strict";
 
+/**
+ * @file
+ * This is the main configuration file that defines all the rules eslint will use to validate code.
+ */
+
 const os = require("os");
 
 module.exports = {
 
 	plugins: [
+		"jsdoc",
 		"promise",
 	],
 
@@ -28,6 +34,7 @@ module.exports = {
 
 	extends: [
 		"eslint:recommended",
+		"plugin:jsdoc/recommended",
 		"plugin:promise/recommended",
 	],
 
@@ -125,6 +132,16 @@ module.exports = {
 		"prefer-rest-params":				 "error",
 		"prefer-template":					 "error",
 		"rest-spread-spacing":				["error", "never"],
+
+		//JSDOC rules: https://github.com/gajus/eslint-plugin-jsdoc
+		"jsdoc/check-access":								"error",
+		"jsdoc/check-examples":								"error",
+		"jsdoc/check-indentation":							"error",
+		"jsdoc/check-syntax":								"error",
+		"jsdoc/require-description":						"error",
+		"jsdoc/require-description-complete-sentence":		"error",
+		"jsdoc/require-file-overview":						"error",
+		"jsdoc/require-hyphen-before-param-description":	"error",
 
 	},
 
