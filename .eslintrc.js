@@ -134,14 +134,15 @@ module.exports = {
 		"rest-spread-spacing":				["error", "never"],
 
 		//JSDOC rules: https://github.com/gajus/eslint-plugin-jsdoc
-		"jsdoc/check-access":								"error",
-		"jsdoc/check-examples":								"error",
-		"jsdoc/check-indentation":							"error",
-		"jsdoc/check-syntax":								"error",
-		"jsdoc/require-description":						"error",
-		"jsdoc/require-description-complete-sentence":		"error",
-		"jsdoc/require-file-overview":						"error",
-		"jsdoc/require-hyphen-before-param-description":	"error",
+		"jsdoc/check-access":								"warn",
+		"jsdoc/check-examples":								"warn",
+		"jsdoc/check-indentation":							"warn",
+		"jsdoc/check-syntax":								"warn",
+		"jsdoc/require-description":						"warn",
+		"jsdoc/require-description-complete-sentence":		"warn",
+		"jsdoc/require-file-overview":						"warn",
+		"jsdoc/require-hyphen-before-param-description":	"warn",
+		"jsdoc/tag-lines":									"off",
 
 	},
 

@@ -1,3 +1,8 @@
+## Unreleased
+`fixed` All JSDoc issues are now categorized as warnings, making it easier to distinguish between documentation and code issues.
+
+`removed` JSDoc comments no longer disallow spacing between tags.
+
 ## 3.0.1
 `fixed` Include updated changelog in released package.
 
