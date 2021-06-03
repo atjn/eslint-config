@@ -1,4 +1,4 @@
-## Unreleased
+## 3.2.0
 `removed` No longer checks for atomic updates because the check was too buggy.
 
 ## 3.1.0
