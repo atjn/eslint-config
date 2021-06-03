@@ -1,3 +1,6 @@
+## Unreleased
+`removed` No longer checks for atomic updates because the check was too buggy.
+
 ## 3.1.0
 `fixed` All JSDoc issues are now categorized as warnings, making it easier to distinguish between documentation and code issues.
 
