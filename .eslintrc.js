@@ -136,7 +136,6 @@ module.exports = {
 		//JSDOC rules: https://github.com/gajus/eslint-plugin-jsdoc
 		"jsdoc/check-access":								"warn",
 		"jsdoc/check-examples":								"warn",
-		"jsdoc/check-indentation":							"warn",
 		"jsdoc/check-syntax":								"warn",
 		"jsdoc/require-description":						"warn",
 		"jsdoc/require-description-complete-sentence":		"warn",
