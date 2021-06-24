@@ -1,3 +1,6 @@
+## 3.3.0
+`removed` No longer requires shallow jsdoc indentation, allowing for jsdoc comments on nested functions.
+
 ## 3.2.0
 `removed` No longer checks for atomic updates because the check was too buggy.
 
