@@ -1,3 +1,8 @@
+## 4.0.0
+`breaking` Updated to work with Eslint 8.
+
+`removed` No longer lints code examples inside jsdoc comments, due to technical limitations.
+
 ## 3.3.0
 `removed` No longer requires shallow jsdoc indentation, allowing for jsdoc comments on nested functions.
 
