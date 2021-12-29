@@ -43,10 +43,8 @@ module.exports = {
 	rules: {
 
 		//Possible Errors
-		"no-loss-of-precision":				 "error",
 		"no-unreachable-loop":				 "error",
 		"no-unsafe-optional-chaining":		["error", {"disallowArithmeticOperators": true}],
-		"no-useless-backreference":			 "error",
 		"require-atomic-updates":			 "off", //disabled until bug is resolved: https://github.com/eslint/eslint/issues/11899
 
 		//Best Practices
@@ -135,7 +133,6 @@ module.exports = {
 
 		//JSDOC rules: https://github.com/gajus/eslint-plugin-jsdoc
 		"jsdoc/check-access":								"warn",
-		"jsdoc/check-examples":								"warn",
 		"jsdoc/check-syntax":								"warn",
 		"jsdoc/require-description":						"warn",
 		"jsdoc/require-description-complete-sentence":		"warn",
