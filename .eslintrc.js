@@ -22,6 +22,10 @@ module.exports = {
 		"node":				true,
 	},
 
+	parserOptions: {
+		ecmaVersion: "latest",
+	},
+
 	ignorePatterns: [
 
 		//Dotfiles are ignored by default. This makes sure they are linted.

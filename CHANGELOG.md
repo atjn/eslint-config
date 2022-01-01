@@ -1,3 +1,6 @@
+## Unreleased
+`added` Now automatigally activates parser support for the latest ECMAScript features.
+
 ## 4.0.0
 `breaking` Updated to work with Eslint 8.
 
