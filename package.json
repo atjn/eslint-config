@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/atjn/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^8.5.0",
-    "eslint-plugin-jsdoc": "^37.4.2",
+    "eslint": "^8.6.0",
+    "eslint-plugin-jsdoc": "^37.5.0",
     "eslint-plugin-promise": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.5.0",
-    "eslint-plugin-jsdoc": "^37.4.2",
+    "eslint": "^8.6.0",
+    "eslint-plugin-jsdoc": "^37.5.0",
     "eslint-plugin-promise": "^6.0.0",
     "tap": "^15.1.5"
   },
