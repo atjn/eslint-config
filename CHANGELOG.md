@@ -1,4 +1,4 @@
-## Unreleased
+## 4.1.0
 `added` Now automatigally activates parser support for the latest ECMAScript features.
 
 ## 4.0.0
