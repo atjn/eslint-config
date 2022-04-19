@@ -1,7 +1,7 @@
 ## 5.0.0
-`added` Support for Node 18.
+`breaking` Removed support for Node 12.
 
-`removed` Support for Node 12.
+`added` Added support for Node 18.
 
 ## 4.1.0
 `added` Now automatigally activates parser support for the latest ECMAScript features.
