@@ -1,3 +1,6 @@
+## Unreleased
+`added` Added a check for constant binary expressions.
+
 ## 5.0.0
 `breaking` Removed support for Node 12.
 

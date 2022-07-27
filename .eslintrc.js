@@ -47,6 +47,7 @@ module.exports = {
 	rules: {
 
 		//Possible Errors
+		"no-constant-binary-expression":	 "error",
 		"no-unreachable-loop":				 "error",
 		"no-unsafe-optional-chaining":		["error", {"disallowArithmeticOperators": true}],
 		"require-atomic-updates":			 "off", //disabled until bug is resolved: https://github.com/eslint/eslint/issues/11899
