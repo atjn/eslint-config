@@ -1,4 +1,4 @@
-## Unreleased
+## 5.1.0
 `added` Added a check for constant binary expressions.
 
 ## 5.0.0

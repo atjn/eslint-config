@@ -1,6 +1,6 @@
 {
   "name": "@atjn/eslint-config",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "My personal JavaScript code style",
   "main": ".eslintrc.js",
   "files": [
