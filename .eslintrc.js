@@ -48,6 +48,7 @@ module.exports = {
 
 		//Possible Errors
 		"no-constant-binary-expression":	 "error",
+		"no-new-native-nonconstructor":		 "error",
 		"no-unreachable-loop":				 "error",
 		"no-unsafe-optional-chaining":		["error", {"disallowArithmeticOperators": true}],
 		"require-atomic-updates":			 "off", //disabled until bug is resolved: https://github.com/eslint/eslint/issues/11899
@@ -59,6 +60,7 @@ module.exports = {
 		"eqeqeq":							["error", "always"],
 		"guard-for-in":						 "error",
 		"no-empty-function":				 "error",
+		"no-empty-static-block":			 "error",
 		"no-eval":							 "error",
 		"no-implicit-coercion":				 "error",
 		"no-implicit-globals":				["error", {"lexicalBindings": false}],
