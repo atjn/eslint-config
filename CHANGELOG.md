@@ -1,6 +1,8 @@
 ## Unreleased
 Includes breaking fixes for minor code style issues.
 
+`breaking` Removed support for Node 14.
+
 ## 5.1.0
 `added` Added a check for constant binary expressions.
 
