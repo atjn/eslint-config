@@ -36,10 +36,10 @@
     "eslint-plugin-promise": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.20.0",
-    "eslint-plugin-jsdoc": "^39.3.3",
-    "eslint-plugin-promise": "^6.0.0",
-    "tap": "^16.3.0"
+    "eslint": "^8.32.0",
+    "eslint-plugin-jsdoc": "^39.6.4",
+    "eslint-plugin-promise": "^6.1.1",
+    "tap": "^16.3.4"
   },
   "engines": {
     "node": ">=14.21"
