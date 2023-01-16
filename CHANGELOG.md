@@ -1,4 +1,4 @@
-## Unreleased
+## 6.0.0
 Includes breaking fixes for minor code style issues.
 
 `breaking` Removed support for Node 14.
