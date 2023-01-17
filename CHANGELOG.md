@@ -1,3 +1,6 @@
+## 6.0.1
+Fixed an issue where the peer dependency versions were accidentally set too low.
+
 ## 6.0.0
 Includes breaking fixes for minor code style issues.
 
