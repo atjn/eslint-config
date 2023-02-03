@@ -131,6 +131,7 @@ module.exports = {
 
 		//ECMAScript 6
 		"arrow-spacing":					["error", {"before": true, "after": true}],
+		"no-inner-declarations":			 "off", // This was good practice before ES6, but can be ignored now.
 		"no-var":							 "error",
 		"prefer-arrow-callback":			 "error",
 		"prefer-const":						 "error",
