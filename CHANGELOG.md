@@ -1,3 +1,8 @@
+## 7.0.0
+`added` Reinstated the check for atomic updates, which was pulled from `3.2.0`. It has now been updated to be less aggressive.
+
+`removed` Now allows inner declarations. This was a problem before ES6, but can be ignored now.
+
 ## 6.0.1
 Fixed an issue where the peer dependency versions were accidentally set too low.
 
