@@ -1,3 +1,6 @@
+## 7.1.0
+`breaking` Changes to JSDoc comment indentation.
+
 ## 7.0.0
 `added` Reinstated the check for atomic updates, which was pulled from `3.2.0`. It has now been updated to be less aggressive.
 
