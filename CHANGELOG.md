@@ -1,3 +1,6 @@
+## 8.0.0
+`breaking` Updates to JSDoc comments, they now align with the TypeScript flavor.
+
 ## 7.1.0
 `breaking` Changes to JSDoc comment indentation.
 
